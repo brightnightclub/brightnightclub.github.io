@@ -1,2 +1,3 @@
-# brightnightclub.github.io
-brighnight.club
+# brightnight.club
+
+This is our website!
