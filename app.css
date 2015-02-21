@@ -1,0 +1,78 @@
+body {
+  margin-bottom: 20px;
+}
+
+#header {
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 120%;
+  margin: 20px 0 5px 0;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 120%;
+  margin: 0;
+}
+
+h3 {
+  background-color: #000;
+  color: #eee;
+  padding: 10px;
+}
+
+h4 {
+  margin: 20px 0;
+}
+
+ol li {
+  font-weight: bold;
+}
+
+.avatars {
+  margin: 20px 0;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 550px) {
+  h1 { font-size: 200% }
+  h2 { font-size: 150% }
+}
+
+@media (min-width: 768px) {
+  #bigtime { margin: 40px 0 }
+  h1 { font-size: 250% }
+  h2 { font-size: 200% }
+  h3 { font-size: 175% }
+  h4 { font-size: 175%;}
+  ol,ul { font-size: 125%; margin: 10px }
+  p { font-size: 125% }
+}
+
+@media (min-width: 992px) {
+  #bigtime { margin: 40px 0 }
+  h1 { font-size: 350% }
+  h2 { font-size: 250% }
+  h3 { font-size: 225% }
+  h4 { font-size: 200%;}
+  ol,ul { font-size: 150%; margin: 15px }
+  p { font-size: 150% }
+}
+
+@media (min-width: 1200px) {
+  #bigtime { margin: 40px 0 }
+  h1 { font-size: 450% }
+  h2 { font-size: 300% }
+  h3 { font-size: 250% }
+  h4 { font-size: 225%;}
+  ol,ul { font-size: 175%; margin: 20px }
+  p { font-size: 175% }
+}
